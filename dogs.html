@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Dogs</title>
+        <link rel = "stylesheet" href = "assignment_2.css">
+        
+        <script src="https://unpkg.com/simple-slider@1.0.3/dist/simple-slider.min.js"></script>
+    </head>
+    <body>
+        <!--Nav Section-->
+        <nav id = "main-nav">
+            <ul>
+                <li><a href="home_assignmet_2.html" target="_blank">Home</a></li>
+                <li><a href="stocks.html" target="_blank">Stocks</a></li>
+                <li><a href="dogs.html" target="_blank">Dogs</a></li>
+            </ul>
+        </nav>
+        
+
+        <!-- Carousel -->
+        <div class="slider" id="dogCarousel"></div>
+
+        <!-- Dog Breed Buttons -->
+        <h2>Select a Dog Breed</h2>
+        <div id="breedButtons"></div>
+
+        <!-- Dog Breed Info -->
+        <div id="breedInfo" class="hidden">
+            <h3 id="breedName"></h3>
+            <p id="breedDesc"></p>
+            <p><strong>Life Span:</strong> <span id="minLife"></span> - <span id="maxLife"></span> years</p>
+        </div>
+
+        <script src="dogs.js"></script>
+    </body>
+</html>

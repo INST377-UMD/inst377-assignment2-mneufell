@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel = "stylesheet" href = "assignment_2.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+        <script defer src="home.js"></script>
+    </head>
+    <body>
+        <!--Nav Section-->
+        <nav id = "main-nav">
+            <ul>
+                <li><a href="home_assignmet_2.html" target="_blank">Home</a></li>
+                <li><a href="stocks.html" target="_blank">Stocks</a></li>
+                <li><a href="dogs.html" target="_blank">Dogs</a></li>
+            </ul>
+        </nav>
+
+        
+        <button class="dogs_button" role="button" onclick="location.href='dogs.html'">Dogs</button>
+        <button class="stocks_button" role="button" onclick="location.href='stocks.html'">Stocks</button>
+
+        <div id="quote-box">
+            <p id="quote-text">Loading quote...</p>
+            <p id="quote-author"></p>
+        </div>
+
+        <div id="audio-controls">
+            <h2>Voice Command Instructions</h2>
+            <ul>
+              <li>Say "Hello" – shows an alert</li>
+              <li>Say "Change the color to red/blue/..." – changes background</li>
+              <li>Say "Navigate to about/contact/home" – goes to a different page</li>
+            </ul>
+            <button onclick="startAnnyang()">Turn On Audio</button>
+            <button onclick="stopAnnyang()">Turn Off Audio</button>
+          </div>
+
+
+        <script src="home.js"></script>
+    </body>
+</html>
+
+

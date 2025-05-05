@@ -1,0 +1,59 @@
+
+<html>
+    <head>
+        <title>Stock Dashboard</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <link rel="stylesheet" href="assignment_2.css">
+    </head>
+    <body>
+        <!--Nav Section-->
+        <nav id = "main-nav">
+            <ul>
+                <li><a href="home_assignmet_2.html" target="_blank">Home</a></li>
+                <li><a href="stocks.html" target="_blank">Stocks</a></li>
+                <li><a href="dogs.html" target="_blank">Dogs</a></li>
+            </ul>
+        </nav>
+        <h1>Stock Tracker</h1>
+
+        <div class="controls">
+        <input type="text" id="stockInput" placeholder="Enter Stock Ticker (e.g. AAPL)">
+        <select id="dayRange">
+        <option value="30">30 Days</option>
+        <option value="60">60 Days</option>
+        <option value="90">90 Days</option>
+        </select>
+        <button id="customButton">Look up Stock!!</button>
+        </div>
+
+        <canvas id="stockChart" width="800" height="400"></canvas>
+
+        <h2>Top 5 Reddit Stocks</h2>
+        <table id="redditTable">
+        <thead>
+        <tr>
+            <th>Ticker</th>
+            <th>Comment Count</th>
+            <th>Sentiment</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+        </table>
+        <div id="audio-controls">
+            <h2>Voice Command Instructions</h2>
+            <ul>
+              <li>Say "Hello" – shows an alert</li>
+              <li>Say "Change the color to red/blue/..." – changes background</li>
+              <li>Say "Navigate to about/contact/home" – goes to a different page</li>
+              <li><strong>"Lookup [ticker]"</strong> — Loads a 30-day stock chart</li>
+            </ul>
+            <button onclick="startAnnyang()">Turn On Audio</button>
+            <button onclick="stopAnnyang()">Turn Off Audio</button>
+          </div>
+
+
+        <script src="stocks.js"></script>
+    
+    </body>
+</html>
+        
