@@ -1,0 +1,179 @@
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+#main-nav {
+    background-color: lightblue;
+    text-align: center;
+}
+
+#main-nav li:hover{
+    background-color: darkgreen;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.slider img {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#breedButtons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+button.breed-btn {
+    background-color: #5a9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.breed-btn:hover {
+    background-color: #48a;
+}
+  
+#breedInfo {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+.hidden {
+    display: none;
+}
+
+  
+.controls {
+    margin-bottom: 20px;
+}
+  
+#customButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+  
+#customButton:hover {
+    background-color: #45a049;
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+  
+.bullish::after {
+    content: "📈";
+}
+  
+.bearish::after {
+    content: "📉";
+}
+.dogs_button {
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 30%;
+  }
+  .stocks_button {
+        appearance: button;
+        background-color: #1899D6;
+        border: solid transparent;
+        border-radius: 16px;
+        border-width: 0 0 4px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: din-round,sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        letter-spacing: .8px;
+        line-height: 20px;
+        margin: 0;
+        outline: none;
+        overflow: visible;
+        padding: 13px 16px;
+        text-align: center;
+        text-transform: uppercase;
+        touch-action: manipulation;
+        transform: translateZ(0);
+        transition: filter .2s;
+        user-select: none;
+        -webkit-user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        width: 30%;
+    }
+    #audio-controls {
+        border-top: 2px solid #ccc;
+        padding-top: 20px;
+        margin-top: 40px;
+        background: #f9f9f9;
+        position: relative;
+        bottom: 0;
+    }
+      
+    #audio-controls button {
+        margin-right: 10px;
+        padding: 10px;
+    }
+    #quote-box {
+        background-color: #f0f0f0;
+        border-left: 4px solid #666;
+        padding: 20px;
+        margin-bottom: 30px;
+        font-style: italic;
+      }
+      
+    #quote-text {
+        font-size: 1.2em;
+        margin: 0 0 10px;
+    }
+      
+    #quote-author {
+        text-align: right;
+        font-weight: bold;
+    }
+  
